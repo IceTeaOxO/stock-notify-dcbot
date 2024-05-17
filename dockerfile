@@ -2,7 +2,7 @@
 FROM node:18
 
 # 設置工作目錄
-WORKDIR /app
+WORKDIR /
 
 # 複製 package.json 和 package-lock.json 文件到容器中
 COPY package*.json ./
